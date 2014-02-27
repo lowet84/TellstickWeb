@@ -1,0 +1,1 @@
+xcopy . \\webserver\web\Tellstick\ /e /i /h /Y

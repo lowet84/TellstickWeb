@@ -31,3 +31,36 @@ C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\ob
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.dll
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.pdb
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\bin\TelldusNETWrapper.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickWeb.dll.config
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickWeb.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickWeb.pdb
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\Antlr3.Runtime.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\EntityFramework.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\Newtonsoft.Json.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Http.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Http.WebHost.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Mvc.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Optimization.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Providers.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Razor.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TelldusNETWrapper.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\WebGrease.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\EntityFramework.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\Newtonsoft.Json.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Net.Http.Formatting.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Http.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Http.WebHost.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Mvc.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Razor.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.csprojResolveAssemblyReference.cache
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.pdb

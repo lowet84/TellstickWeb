@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7329AB13-14A1-47ED-BAE9-28FF99492396}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{907E99B7-6504-4255-B4A3-36B7A99B6565}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tellstick</RootNamespace>
-    <AssemblyName>Tellstick</AssemblyName>
+    <RootNamespace>TellstickCore</RootNamespace>
+    <AssemblyName>TellstickCore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -41,21 +44,21 @@
     <Reference Include="System.Xml" />
     <Reference Include="TelldusNETWrapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2dd42ab86754aa1e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telldus\Development\TelldusNETWrapper.dll</HintPath>
+      <HintPath>.\TelldusNETWrapper.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Helper\TellstickHelper.cs" />
+    <Compile Include="Models\TellstickDevice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TellstickCore\TellstickCore.csproj">
-      <Project>{907e99b7-6504-4255-b4a3-36b7a99b6565}</Project>
-      <Name>TellstickCore</Name>
-    </ProjectReference>
+    <Content Include="TelldusNETWrapper.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using TelldusWrapper;
-using TellstickWeb.Models;
+using TellstickCore.Models;
 
-namespace TellstickWeb.Helper
+namespace TellstickCore.Helper
 {
     public static class TellstickHelper
     {
@@ -19,8 +19,8 @@ namespace TellstickWeb.Helper
                 var name = TelldusNETWrapper.tdGetName(id);
                 listOfDevices.Add(new TellstickDevice()
                 {
-                    id = id,
-                    name = name,
+                    Id = id,
+                    Name = name,
                 });
             }
             return listOfDevices;
@@ -31,9 +31,9 @@ namespace TellstickWeb.Helper
                 foreach (var item in GetDevices())
                 {
                     if (state)
-                        TelldusNETWrapper.tdTurnOn(item.id);
+                        TelldusNETWrapper.tdTurnOn(item.Id);
                     else
-                        TelldusNETWrapper.tdTurnOff(item.id);
+                        TelldusNETWrapper.tdTurnOff(item.Id);
                 }
             else
             {

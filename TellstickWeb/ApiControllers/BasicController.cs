@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using TellstickWeb.Helper;
-using TellstickWeb.Models;
+using TellstickCore.Helper;
+using TellstickCore.Models;
 
 namespace TellstickWeb.ApiControllers
 {
@@ -22,7 +22,7 @@ namespace TellstickWeb.ApiControllers
         // GET api/<controller>/5
         public TellstickDevice Get(int id)
         {
-            return TellstickHelper.GetDevices().Where(l => l.id == id).SingleOrDefault();
+            return TellstickHelper.GetDevices().Where(l => l.Id == id).SingleOrDefault();
         }
 
         // POST api/<controller>

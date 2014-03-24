@@ -31,6 +31,7 @@ C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\ob
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.dll
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\obj\Debug\TellstickWeb.pdb
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\TellstickWeb\bin\TelldusNETWrapper.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TelldusNETWrapper.dll
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickWeb.dll.config
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickWeb.dll
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickWeb.pdb
@@ -49,8 +50,9 @@ C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.Razor.dll
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.dll
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Web.WebPages.Razor.dll
-C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TelldusNETWrapper.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickCore.dll
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\WebGrease.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\TellstickCore.pdb
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\EntityFramework.xml
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\Newtonsoft.Json.xml
 C:\Users\Fredrik\Documents\Git\Tellstick\TellstickWeb\bin\System.Net.Http.Formatting.xml

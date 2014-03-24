@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using TelldusWrapper;
+using TellstickCore.Helper;
 
 namespace TellstickTest
 {
@@ -15,7 +16,6 @@ namespace TellstickTest
         static void Main(string[] args)
         {
             var wrapper = new TelldusNETWrapper();
-            //wrapper.tdRegisterRawDeviceEvent(new TelldusNETWrapper.RawListeningCallbackFunction(RawEvent), null);
             wrapper.tdRegisterDeviceEvent(new TelldusNETWrapper.EventCallbackFunction(DeviceEvent), null);
             while (true)
                 Thread.Sleep(10);
@@ -32,31 +32,10 @@ namespace TellstickTest
                 var devices = new int[] { 4, 5, 6 };
                 foreach (var item in devices)
                 {
-                    if (mode)
-                        TelldusNETWrapper.tdTurnOn(item);
-                    else
-                        TelldusNETWrapper.tdTurnOff(item);
+                    TellstickHelper.Turn(item, mode);
                 }
             }
             return deviceId;
-        }
-
-        //static int RawEvent(string data, int controllerId, int callbackId, object context)
-        //{
-        //    Console.WriteLine(data + " " + controllerId + " " + callbackId);
-        //    return 0;
-        //}
-
-        private static Dictionary<int, string> GetDevices()
-        {
-            var ret = new Dictionary<int, string>();
-            for (int i = 0; i < TelldusNETWrapper.tdGetNumberOfDevices(); i++)
-            {
-                var id = TelldusNETWrapper.tdGetDeviceId(i);
-                var name = TelldusNETWrapper.tdGetName(id);
-                ret.Add(id, name);
-            }
-            return ret;
         }
     }
 }

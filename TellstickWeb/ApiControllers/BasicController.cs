@@ -13,9 +13,9 @@ namespace TellstickWeb.ApiControllers
     {
         
         // GET api/<controller>
-        public IEnumerable<TellstickDevice> Get()
+        public Options Get()
         {
-            return TellstickHelper.GetDevices();
+            return TellstickHelper.GetOptions();
 
         }
 

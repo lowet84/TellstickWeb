@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using TelldusWrapper;
 using TellstickCore.Helper;
 
-namespace TellstickTest
+namespace TellstickConsole
 {
     class Program
     {
@@ -18,7 +18,9 @@ namespace TellstickTest
             var wrapper = new TelldusNETWrapper();
             wrapper.tdRegisterDeviceEvent(new TelldusNETWrapper.EventCallbackFunction(DeviceEvent), null);
             while (true)
-                Thread.Sleep(10);
+            {
+                Thread.Sleep(Timeout.Infinite);
+            }
         }
 
         static int DeviceEvent(int deviceId, int method, string data, int callbackId, object context)

@@ -13,7 +13,17 @@ namespace TellstickCore.Helper
     // Tillfälligt tills skapandet av databasen från EF funkar.
     public class BuildDatabase
     {
-        private const string DataBaseName = @"c:\temp\Settings.db";
+        //private const string DataBaseName = @"c:\temp\Settings.db";
+        private static string _databaseName;
+        private static string DataBaseName 
+        { 
+            get 
+            { 
+                if(_databaseName== null)
+                    _databaseName = System.Configuration.ConfigurationManager.ConnectionStrings["SettingsContext"].ConnectionString.Split('=')[1];
+                return _databaseName;
+                } 
+        }
         private static SQLiteConnection _dataBaseConnection;
         private static SQLiteConnection DataBaseConnection
         {

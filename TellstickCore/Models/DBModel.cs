@@ -11,13 +11,4 @@ namespace TellstickCore.Models
     {
         public Int64 Id { get; set; }
     }
-
-    public class ForeignKey : Attribute
-    {
-        public PropertyInfo PropertyInfo { get; private set; }
-        public ForeignKey(PropertyInfo propInfo)
-        {
-            PropertyInfo = propInfo;   
-        }
-    }
 }

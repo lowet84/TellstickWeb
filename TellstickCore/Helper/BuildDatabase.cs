@@ -39,7 +39,7 @@ namespace TellstickCore.Helper
             DataBaseConnection.Close();
         }
 
-        public static void BuildDbIfNotExists()
+        internal static bool BuildDbIfNotExists()
         {
             if (!File.Exists(DataBaseName))
             {
@@ -64,7 +64,9 @@ namespace TellstickCore.Helper
                     var sql = sb.ToString();
                     ExecuteSqlNonQuery(sql);
                 }
+                return true;
             }
+            return false;
         }
     }
 }

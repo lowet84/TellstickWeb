@@ -10,6 +10,6 @@ namespace TellstickCore.Models
     {
         public List<TellstickDevice> TellstickDevices { get; set; }
         public List<Command> Commands { get; set; }
-        public List<TellstickInputAction> Actions { get; set; }
+        public List<InputAction> Actions { get; set; }
     }
 }

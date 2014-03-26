@@ -8,15 +8,15 @@ namespace TellstickCore.Models
 {
     public class Command : DBObject
     {
+        public Command() { }
+
+        public Command(string commandName, string commandText)
+        {
+            CommandName = commandName;
+            CommandText = commandText;
+        }
+
         public string CommandName { get; set; }
         public string CommandText { get; set; }
-
-        public Command(){}
-
-        public Command(string name, string command)
-        {
-            CommandName = name;
-            CommandText = command;
-        }
     }
 }

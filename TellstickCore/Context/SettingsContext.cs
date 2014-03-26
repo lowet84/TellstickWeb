@@ -11,6 +11,6 @@ namespace TellstickCore.Context
     public class SettingsContext: DbContext
     {
         public DbSet<Command> Commands { get; set; }
-        public DbSet<TellstickInputAction> TellstickInputActions { get; set; }
+        public DbSet<InputAction> InputActions { get; set; }
     }
 }

@@ -9,3 +9,17 @@ C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\Tellstick\Tellstick\bin\D
 C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\Tellstick.exe.config
 C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\obj\Debug\Tellstick.exe
 C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\obj\Debug\Tellstick.pdb
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\Tellstick.exe
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\Tellstick.pdb
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\TelldusNETWrapper.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\obj\Debug\TellstickTest.csprojResolveAssemblyReference.cache
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\TellstickCore.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\System.Data.SQLite.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\TellstickCore.pdb
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\System.Data.SQLite.xml
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\EntityFramework.dll
+C:\Users\Fredrik\Documents\Git\Tellstick\Tellstick\bin\Debug\EntityFramework.xml

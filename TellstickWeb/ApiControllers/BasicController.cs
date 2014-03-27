@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using TellstickWeb.Helper;
-using TellstickWeb.Models;
+using TellstickCore.Helper;
+using TellstickCore.Models;
 
 namespace TellstickWeb.ApiControllers
 {
@@ -13,22 +13,22 @@ namespace TellstickWeb.ApiControllers
     {
         
         // GET api/<controller>
-        public IEnumerable<TellstickDevice> Get()
+        public Options Get()
         {
-            return TellstickHelper.GetDevices();
+            return TellstickHelper.Instance.Options;
 
         }
 
         // GET api/<controller>/5
         public TellstickDevice Get(int id)
         {
-            return TellstickHelper.GetDevices().Where(l => l.id == id).SingleOrDefault();
+            return TellstickHelper.Instance.Devices.Where(l => l.Id == id).SingleOrDefault();
         }
 
         // POST api/<controller>
         public void Post(int id)
         {
-            TellstickHelper.Turn(id,true);
+            TellstickHelper.Instance.Turn((int?)id, true);
         }
 
         //// PUT api/<controller>/5
@@ -39,7 +39,7 @@ namespace TellstickWeb.ApiControllers
         // DELETE api/<controller>/5
         public void Delete(int id)
         {
-            TellstickHelper.Turn(id, false);
+            TellstickHelper.Instance.Turn((int?)id, false);
         }
     }
 }

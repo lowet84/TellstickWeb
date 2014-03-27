@@ -12,12 +12,13 @@ namespace TellstickWeb.ApiControllers
     public class InvokeController : ApiController
     {
         // GET api/<controller>
-        public void Get(int id, int method)
+        public bool Get(int id, int method)
         {
             foreach (var item in TellstickHelper.Instance.InputActions.Where(d => d.DeviceId == id))
             {
                 TellstickHelper.Instance.InvokeAction(item.ActionId, item.ActionType, item.ActionParameter == -1 ? method : item.ActionParameter);
             }
+            return true;
         }
 
         // POST api/<controller>

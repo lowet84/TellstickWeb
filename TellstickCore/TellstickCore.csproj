@@ -62,9 +62,8 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="TelldusNETWrapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2dd42ab86754aa1e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\TelldusNETWrapper.dll</HintPath>
+    <Reference Include="TelldusNETWrapper">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Telldus\Development\TelldusNETWrapper.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -83,9 +82,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TelldusNETWrapper.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

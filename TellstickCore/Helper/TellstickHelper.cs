@@ -151,9 +151,14 @@ namespace TellstickCore.Helper
 
         private void PopulateDb()
         {
-            AddInputAction("Fjärren 1", 9, 4, 0, -1);
+            //AddInputAction("Fjärren 1", 9, 4, 0, -1);
             AddCommand("Starta om download", "winrs -r:download shutdown -r -t 0");
             AddInputAction("Starta om download", -2, Settings.Commands.First(d => d.CommandName == "Starta om download").Id, ActionType.CMDAction, -1);
+            int counter = 1;
+            foreach (var device in Devices)
+            {
+                AddInputAction("Släck Allt " + counter++, 9, device.Id, ActionType.TellstickAction, -1);
+            }
             Settings.SaveChanges();
         }
 
